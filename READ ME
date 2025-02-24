@@ -1,0 +1,17 @@
+Hello,
+
+
+This test was written on Macbook Pro using Visual Studio Code.
+Used Language TypeScript.
+
+
+Technical Specifications:
+- Playwright: Version 1.50.1
+- Node.js: Version 22.13.1 (Installation instructions: https://nodejs.org/en)
+- VS Code Extension: Playwright Test for VSCode (Microsoft)
+
+To run the test use 'npx playwright test'.
+Name of the test invalid-login.spec.ts in the test folder.
+For headless mode navigate to playwright.config.ts file and change headless to false.
+
+Test is running on Chromium and Firefox. Can be change in the config file.
