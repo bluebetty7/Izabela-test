@@ -12,6 +12,6 @@ Technical Specifications:
 
 To run the test use 'npx playwright test'.
 Name of the test invalid-login.spec.ts in the test folder.
-For headless mode navigate to playwright.config.ts file and change headless to false.
+For head mode navigate to playwright.config.ts file and change headless to false.
 
 Test is running on Chromium and Firefox. Can be change in the config file.
