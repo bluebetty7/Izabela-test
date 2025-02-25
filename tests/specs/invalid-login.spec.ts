@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import LoginPage from '../pages/login-page.ts';
 import userData from '../data/user-data.ts';
 import url from '../utilis/url.ts';
