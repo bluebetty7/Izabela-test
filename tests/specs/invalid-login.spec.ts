@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import LoginPage from '../pages/login-page.ts';
 import userData from '../data/user-data.ts';
-import url from '../Utilis/url.ts';
+import url from '../utilis/url.ts';
 
 let loginPage: LoginPage;
 test.beforeEach(async ({ page }) => {
